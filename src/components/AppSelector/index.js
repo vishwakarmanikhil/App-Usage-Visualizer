@@ -17,6 +17,7 @@ const CustomSelect = (props) => {
       onChange={(e) => onChange(e?.value)}
       className={className}
       classNamePrefix={'select-custom'}
+      isSearchable={false}
     />
   );
 };
