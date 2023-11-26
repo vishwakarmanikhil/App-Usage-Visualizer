@@ -1,0 +1,7 @@
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+.app__container {
+  position: relative;
+}

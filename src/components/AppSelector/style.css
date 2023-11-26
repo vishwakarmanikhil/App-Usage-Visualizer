@@ -1,0 +1,28 @@
+.select-custom__control {
+    border-radius: 16px !important;
+    border: 1px solid #393939 !important;
+    background: radial-gradient(89.43% 91.06% at 12.64% 12.94%, rgba(44, 44, 46, 0.30) 0%, rgba(57, 57, 57, 0.30) 0.01%, rgba(140, 140, 140, 0.12) 100%) !important;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(17px);
+    padding: 0px 12px 0px 20px;
+    cursor: pointer;
+}
+
+.select-custom__value-container {
+    padding: 0px !important;
+}
+
+.select-custom__menu {
+    z-index: 999 !important;
+}
+
+.select-custom__single-value {
+    font-size: var(--p1-font-size);
+    line-height: var(--p1-line-height);
+    font-weight: 600;
+    color: var(--white-color) !important;
+}
+
+.select-custom__single-value::before {
+    content: 'About ';
+}
